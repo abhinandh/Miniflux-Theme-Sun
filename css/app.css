@@ -551,22 +551,6 @@ nav .active a {
     padding: 3px;
 }
 
-.items article .preview {
-    /*display:none;*/
-    overflow:hidden;
-    max-height: 0px;
-    -webkit-transition: max-height 0.2s;
-}
-
-
-.items article:hover .preview,
-.items #current-item .preview {
-    display:block;
-    color: #aaa;
-    max-height: 1000px;
-    -webkit-transition: max-height 1s;
-}
-
 .items article[data-item-status="read"] h2 a {
     color: #666;
 }
